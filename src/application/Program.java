@@ -1,7 +1,10 @@
 package application;
 
+import model.entities.Position;
+
 public class Program {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Position pos = new Position(1, 3);
+        System.out.println(pos);
     }
 }
